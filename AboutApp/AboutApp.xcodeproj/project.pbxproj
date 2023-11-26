@@ -11,6 +11,7 @@
 		90CC96EE2B1393FE00EF4D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CC96ED2B1393FE00EF4D03 /* ContentView.swift */; };
 		90CC96F02B13940100EF4D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CC96EF2B13940100EF4D03 /* Assets.xcassets */; };
 		90CC96F32B13940100EF4D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CC96F22B13940100EF4D03 /* Preview Assets.xcassets */; };
+		90CC96FA2B139CE600EF4D03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CC96F92B139CE600EF4D03 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		90CC96ED2B1393FE00EF4D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90CC96EF2B13940100EF4D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90CC96F22B13940100EF4D03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90CC96F92B139CE600EF4D03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				90CC96EB2B1393FE00EF4D03 /* AboutAppApp.swift */,
 				90CC96ED2B1393FE00EF4D03 /* ContentView.swift */,
+				90CC96F92B139CE600EF4D03 /* HomeView.swift */,
 				90CC96EF2B13940100EF4D03 /* Assets.xcassets */,
 				90CC96F12B13940100EF4D03 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CC96FA2B139CE600EF4D03 /* HomeView.swift in Sources */,
 				90CC96EE2B1393FE00EF4D03 /* ContentView.swift in Sources */,
 				90CC96EC2B1393FE00EF4D03 /* AboutAppApp.swift in Sources */,
 			);
