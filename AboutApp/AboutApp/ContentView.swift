@@ -15,14 +15,10 @@ struct ContentView: View {
           Label("Home", systemImage: "person")
         }
       
-      VStack {
-        Text("Story")
-          .font(.largeTitle)
-      }
-      .background(Color.red)
-      .tabItem {
-        Label("Story", systemImage: "book")
-      }
+      StoryView()
+        .tabItem {
+          Label("Story", systemImage: "book")
+        }
     }
   }
 }
